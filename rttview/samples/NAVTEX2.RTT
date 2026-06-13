@@ -1,0 +1,602 @@
+ TIME CALL  NAME                 ITU AREA                        
+-----------------------------------------------------------------------
+ 0050 TAL   Antalya Radio        TUR Mediterranean Sea/Black Sea   
+ 0450 TAL   Antalya Radio        TUR Mediterranean Sea/Black Sea   
+ 0850 TAL   Antalya Radio        TUR Mediterranean Sea/Black Sea   
+ 1250 TAL   Antalya Radio        TUR Mediterranean Sea/Black Sea   
+ 1650 TAL   Antalya Radio        TUR Mediterranean Sea/Black Sea   
+ 2050 TAL   Antalya Radio        TUR Mediterranean Sea/Black Sea   
+
+ 0000 CBA   Antofagasta Radio    CHL East Pacific                  
+ 0400 CBA   Antofagasta Radio    CHL East Pacific                  
+ 0800 CBA   Antofagasta Radio    CHL East Pacific                  
+ 1200 CBA   Antofagasta Radio    CHL East Pacific                  
+ 1600 CBA   Antofagasta Radio    CHL East Pacific                  
+ 2000 CBA   Antofagasta Radio    CHL East Pacific                  
+
+ 0200 UGE   Arkhangelsk Radio    RUS North Atlantic to Barents Sea 
+ 0600 UGE   Arkhangelsk Radio    RUS North Atlantic to Barents Sea 
+ 1000 UGE   Arkhangelsk Radio    RUS North Atlantic to Barents Sea 
+ 1400 UGE   Arkhangelsk Radio    RUS North Atlantic to Barents Sea 
+ 1800 UGE   Arkhangelsk Radio    RUS North Atlantic to Barents Sea 
+ 2200 UGE   Arkhangelsk Radio    RUS North Atlantic to Barents Sea 
+
+ 0300 L2I   Bahia Blanca Radio   ARG South Atlantic                
+ 0900 L2I   Bahia Blanca Radio   ARG South Atlantic                
+ 1500 L2I   Bahia Blanca Radio   ARG South Atlantic                
+ 2100 L2I   Bahia Blanca Radio   ARG South Atlantic                
+
+ 0418 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+ 0718 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+ 1018 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+ 1318 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+ 1618 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+ 1918 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+ 2218 UFA   Batumi Radio         GEO Mediterranean Sea/Black Sea   
+
+ 0040 UCT 2 Beringovskiy Radio   RUS West Pacific/Sea of Japan     
+ 0440 UCT 2 Beringovskiy Radio   RUS West Pacific/Sea of Japan     
+ 0840 UCT 2 Beringovskiy Radio   RUS West Pacific/Sea of Japan     
+ 1240 UCT 2 Beringovskiy Radio   RUS West Pacific/Sea of Japan     
+ 1640 UCT 2 Beringovskiy Radio   RUS West Pacific/Sea of Japan     
+ 2040 UCT 2 Beringovskiy Radio   RUS West Pacific/Sea of Japan     
+
+ 0018 LGP   Bodoe Radio          NOR North Atlantic to Barents Sea 
+ 0418 LGP   Bodoe Radio          NOR North Atlantic to Barents Sea 
+ 0900 LGP   Bodoe Radio          NOR North Atlantic to Barents Sea 
+ 1218 LGP   Bodoe Radio          NOR North Atlantic to Barents Sea 
+ 1618 LGP   Bodoe Radio          NOR North Atlantic to Barents Sea 
+ 2100 LGP   Bodoe Radio          NOR North Atlantic to Barents Sea 
+
+ 0100 VWB   Bombay Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+ 0500 VWB   Bombay Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+ 0900 VWB   Bombay Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+ 1300 VWB   Bombay Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+ 1700 VWB   Bombay Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+ 2100 VWB   Bombay Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0510 L2B   Buenos Aires Radio   ARG South Atlantic                
+ 1110 L2B   Buenos Aires Radio   ARG South Atlantic                
+ 1710 L2B   Buenos Aires Radio   ARG South Atlantic                
+ 2310 L2B   Buenos Aires Radio   ARG South Atlantic                
+
+ 0020 ZSC   Capetown Radio       AFS South Atlantic                
+ 0420 ZSC   Capetown Radio       AFS South Atlantic                
+ 0820 ZSC   Capetown Radio       AFS South Atlantic                
+ 1220 ZSC   Capetown Radio       AFS South Atlantic                
+ 1620 ZSC   Capetown Radio       AFS South Atlantic                
+ 2020 ZSC   Capetown Radio       AFS South Atlantic                
+
+ 0340 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 0355 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 0740 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 0755 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 1140 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 1155 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 1540 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 1555 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 1940 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 1955 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 2340 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+ 2355 VFN   CCG Montreal         CAN North Atlantic to Barents Sea 
+
+ 0030 VAJ   CCG Prince Rupert    CAN East Pacific                  
+ 0430 VAJ   CCG Prince Rupert    CAN East Pacific                  
+ 0830 VAJ   CCG Prince Rupert    CAN East Pacific                  
+ 1230 VAJ   CCG Prince Rupert    CAN East Pacific                  
+ 1630 VAJ   CCG Prince Rupert    CAN East Pacific                  
+ 2030 VAJ   CCG Prince Rupert    CAN East Pacific                  
+
+ 1020 VON   CCG Saint John's     CAN North Atlantic to Barents Sea 
+ 2220 VON   CCG Saint John's     CAN North Atlantic to Barents Sea 
+
+ 0240 VCO   CCG Sydney           CAN North Atlantic to Barents Sea 
+ 0640 VCO   CCG Sydney           CAN North Atlantic to Barents Sea 
+ 1040 VCO   CCG Sydney           CAN North Atlantic to Barents Sea 
+ 1440 VCO   CCG Sydney           CAN North Atlantic to Barents Sea 
+ 1840 VCO   CCG Sydney           CAN North Atlantic to Barents Sea 
+ 2240 VCO   CCG Sydney           CAN North Atlantic to Barents Sea 
+
+ 0510 VAE   CCG Tofino           CAN East Pacific                  
+ 0910 VAE   CCG Tofino           CAN East Pacific                  
+ 1710 VAE   CCG Tofino           CAN East Pacific                  
+ 2110 VAE   CCG Tofino           CAN East Pacific                  
+
+ 0340 VAU   CCG Yarmouth         CAN North Atlantic to Barents Sea 
+ 0740 VAU   CCG Yarmouth         CAN North Atlantic to Barents Sea 
+ 1140 VAU   CCG Yarmouth         CAN North Atlantic to Barents Sea 
+ 1540 VAU   CCG Yarmouth         CAN North Atlantic to Barents Sea 
+ 1940 VAU   CCG Yarmouth         CAN North Atlantic to Barents Sea 
+ 2340 VAU   CCG Yarmouth         CAN North Atlantic to Barents Sea 
+
+ 0400 L2W   Comodoro Rivadavia R ARG South Atlantic                
+ 1000 L2W   Comodoro Rivadavia R ARG South Atlantic                
+ 1600 L2W   Comodoro Rivadavia R ARG South Atlantic                
+ 2200 L2W   Comodoro Rivadavia R ARG South Atlantic                
+
+ 0000       CROSS Ile d'Ouessant F   North Atlantic to Barents Sea 
+ 1200       CROSS Ile d'Ouessant F   North Atlantic to Barents Sea 
+
+ 1140       CROSS Toulon         F   Mediterranean Sea/Black Sea   
+ 2340       CROSS Toulon         F   Mediterranean Sea/Black Sea   
+
+ 0048 GCC   Cullercoats Radio    G   N.Sea/Gulf of Bothania/Finland
+ 0448 GCC   Cullercoats Radio    G   N.Sea/Gulf of Bothania/Finland
+ 0848 GCC   Cullercoats Radio    G   N.Sea/Gulf of Bothania/Finland
+ 1248 GCC   Cullercoats Radio    G   N.Sea/Gulf of Bothania/Finland
+ 1648 GCC   Cullercoats Radio    G   N.Sea/Gulf of Bothania/Finland
+ 2048 GCC   Cullercoats Radio    G   N.Sea/Gulf of Bothania/Finland
+
+ 0250 XSZ   Dalian Radio         CHN East/South China Sea          
+ 0650 XSZ   Dalian Radio         CHN East/South China Sea          
+ 1050 XSZ   Dalian Radio         CHN East/South China Sea          
+ 1450 XSZ   Dalian Radio         CHN East/South China Sea          
+ 2250 XSZ   Dalian Radio         CHN East/South China Sea          
+
+ 0120 ZSD   Durban Radio         AFS Ind.Ocean/Arab.Gulf/Red Sea   
+ 0520 ZSD   Durban Radio         AFS Ind.Ocean/Arab.Gulf/Red Sea   
+ 0920 ZSD   Durban Radio         AFS Ind.Ocean/Arab.Gulf/Red Sea   
+ 1320 ZSD   Durban Radio         AFS Ind.Ocean/Arab.Gulf/Red Sea   
+ 1720 ZSD   Durban Radio         AFS Ind.Ocean/Arab.Gulf/Red Sea   
+ 2120 ZSD   Durban Radio         AFS Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0210 XSQ   Guangzhou Radio      CHN East/South China Sea          
+ 0610 XSQ   Guangzhou Radio      CHN East/South China Sea          
+ 1010 XSQ   Guangzhou Radio      CHN East/South China Sea          
+ 1410 XSQ   Guangzhou Radio      CHN East/South China Sea          
+ 2210 XSQ   Guangzhou Radio      CHN East/South China Sea          
+
+ 0100 ZBM   Hamilton Harbour Rad BER North Atlantic to Barents Sea 
+ 0700 ZBM   Hamilton Harbour Rad BER North Atlantic to Barents Sea 
+ 1300 ZBM   Hamilton Harbour Rad BER North Atlantic to Barents Sea 
+ 1900 ZBM   Hamilton Harbour Rad BER North Atlantic to Barents Sea 
+
+ 0000 SAH   Harnosand Radio      S   N.Sea/Gulf of Bothania/Finland
+ 0400 SAH   Harnosand Radio      S   N.Sea/Gulf of Bothania/Finland
+ 0800 SAH   Harnosand Radio      S   N.Sea/Gulf of Bothania/Finland
+ 1200 SAH   Harnosand Radio      S   N.Sea/Gulf of Bothania/Finland
+ 1600 SAH   Harnosand Radio      S   N.Sea/Gulf of Bothania/Finland
+ 2000 SAH   Harnosand Radio      S   N.Sea/Gulf of Bothania/Finland
+
+ 0110 SVH   Iraklion Radio       GRC Mediterranean Sea/Black Sea   
+ 0510 SVH   Iraklion Radio       GRC Mediterranean Sea/Black Sea   
+ 0910 SVH   Iraklion Radio       GRC Mediterranean Sea/Black Sea   
+ 1310 SVH   Iraklion Radio       GRC Mediterranean Sea/Black Sea   
+ 1710 SVH   Iraklion Radio       GRC Mediterranean Sea/Black Sea   
+ 2110 SVH   Iraklion Radio       GRC Mediterranean Sea/Black Sea   
+
+ 0030 TAH   Istanbul Radio       TUR Mediterranean Sea/Black Sea   
+ 0430 TAH   Istanbul Radio       TUR Mediterranean Sea/Black Sea   
+ 0830 TAH   Istanbul Radio       TUR Mediterranean Sea/Black Sea   
+ 1230 TAH   Istanbul Radio       TUR Mediterranean Sea/Black Sea   
+ 1630 TAH   Istanbul Radio       TUR Mediterranean Sea/Black Sea   
+ 2030 TAH   Istanbul Radio       TUR Mediterranean Sea/Black Sea   
+
+ 0120 TAN   Izmir Radio          TUR Mediterranean Sea/Black Sea   
+ 0520 TAN   Izmir Radio          TUR Mediterranean Sea/Black Sea   
+ 0920 TAN   Izmir Radio          TUR Mediterranean Sea/Black Sea   
+ 1320 TAN   Izmir Radio          TUR Mediterranean Sea/Black Sea   
+ 1720 TAN   Izmir Radio          TUR Mediterranean Sea/Black Sea   
+ 2120 TAN   Izmir Radio          TUR Mediterranean Sea/Black Sea   
+
+ 0700 HZH   Jeddah Radio         ARS Ind.Ocean/Arab.Gulf/Red Sea   
+ 1700 HZH   Jeddah Radio         ARS Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0140 SVK   Kerkyra Radio        GRC Mediterranean Sea/Black Sea   
+ 0540 SVK   Kerkyra Radio        GRC Mediterranean Sea/Black Sea   
+ 0940 SVK   Kerkyra Radio        GRC Mediterranean Sea/Black Sea   
+ 1340 SVK   Kerkyra Radio        GRC Mediterranean Sea/Black Sea   
+ 1740 SVK   Kerkyra Radio        GRC Mediterranean Sea/Black Sea   
+ 2140 SVK   Kerkyra Radio        GRC Mediterranean Sea/Black Sea   
+
+ 0010 UFO   Kholmsk Radio        RUS West Pacific/Sea of Japan     
+ 0410 UFO   Kholmsk Radio        RUS West Pacific/Sea of Japan     
+ 0810 UFO   Kholmsk Radio        RUS West Pacific/Sea of Japan     
+ 1210 UFO   Kholmsk Radio        RUS West Pacific/Sea of Japan     
+ 1610 UFO   Kholmsk Radio        RUS West Pacific/Sea of Japan     
+ 2010 UFO   Kholmsk Radio        RUS West Pacific/Sea of Japan     
+
+ 0140 JNX   Kushiro Radio        J   West Pacific/Sea of Japan     
+ 0540 JNX   Kushiro Radio        J   West Pacific/Sea of Japan     
+ 0940 JNX   Kushiro Radio        J   West Pacific/Sea of Japan     
+ 1340 JNX   Kushiro Radio        J   West Pacific/Sea of Japan     
+ 1740 JNX   Kushiro Radio        J   West Pacific/Sea of Japan     
+ 2140 JNX   Kushiro Radio        J   West Pacific/Sea of Japan     
+
+ 0030 EAR   La Coruna Radio      E   North Atlantic to Barents Sea 
+ 0430 EAR   La Coruna Radio      E   North Atlantic to Barents Sea 
+ 0830 EAR   La Coruna Radio      E   North Atlantic to Barents Sea 
+ 1230 EAR   La Coruna Radio      E   North Atlantic to Barents Sea 
+ 1630 EAR  
+ 2030 EAR   La Coruna Radio      E   North Atlantic to Barents Sea 
+
+ 0150 SVL   Limnos Radio         GRC Mediterranean Sea/Black Sea   
+ 0550 SVL   Limnos Radio         GRC Mediterranean Sea/Black Sea   
+ 0950 SVL   Limnos Radio         GRC Mediterranean Sea/Black Sea   
+ 1350 SVL   Limnos Radio         GRC Mediterranean Sea/Black Sea   
+ 1750 SVL   Limnos Radio         GRC Mediterranean Sea/Black Sea   
+ 2150 SVL   Limnos Radio         GRC Mediterranean Sea/Black Sea   
+
+ 0230 VWM   Madras Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+ 1030 VWM   Madras Radio         IND Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0030 UVD   Magadan Radio        RUS West Pacific/Sea of Japan     
+ 0430 UVD   Magadan Radio        RUS West Pacific/Sea of Japan     
+ 0830 UVD   Magadan Radio        RUS West Pacific/Sea of Japan     
+ 1230 UVD   Magadan Radio        RUS West Pacific/Sea of Japan     
+ 1630 UVD   Magadan Radio        RUS West Pacific/Sea of Japan     
+ 2030 UVD   Magadan Radio        RUS West Pacific/Sea of Japan     
+
+ 0040 CBM   Magallanes Radio     CHL East Pacific                  
+ 0440 CBM   Magallanes Radio     CHL East Pacific                  
+ 0840 CBM   Magallanes Radio     CHL East Pacific                  
+ 1240 CBM   Magallanes Radio     CHL East Pacific                  
+ 1640 CBM   Magallanes Radio     CHL East Pacific                  
+ 2040 CBM   Magallanes Radio     CHL East Pacific                  
+
+ 0010 A9M   Manama Radio         BHR Ind.Ocean/Arab.Gulf/Red Sea   
+ 0410 A9M   Manama Radio         BHR Ind.Ocean/Arab.Gulf/Red Sea   
+ 0810 A9M   Manama Radio         BHR Ind.Ocean/Arab.Gulf/Red Sea   
+ 1210 A9M   Manama Radio         BHR Ind.Ocean/Arab.Gulf/Red Sea   
+ 1610 A9M   Manama Radio         BHR Ind.Ocean/Arab.Gulf/Red Sea   
+ 2010 A9M   Manama Radio         BHR Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0110 L2P   Mar del Plata Radio  ARG South Atlantic                
+ 0710 L2P   Mar del Plata Radio  ARG South Atlantic                
+ 1310 L2P   Mar del Plata Radio  ARG South Atlantic                
+ 1910 L2P   Mar del Plata Radio  ARG South Atlantic                
+
+ 0218 UTW   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 0500 UBN   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 0518 UTW   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 0818 UTW   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 1118 UTW   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 1418 UTW   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 1700 UBN   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+ 1718 UTW   Mariupol Radio       UKR Mediterranean Sea/Black Sea   
+
+ 0110 JNR   Moji Radio           J   West Pacific/Sea of Japan     
+ 0510 JNR   Moji Radio           J   West Pacific/Sea of Japan     
+ 0910 JNR   Moji Radio           J   West Pacific/Sea of Japan     
+ 1310 JNR   Moji Radio           J   West Pacific/Sea of Japan     
+ 1710 JNR   Moji Radio           J   West Pacific/Sea of Japan     
+ 2110 JNR   Moji Radio           J   West Pacific/Sea of Japan     
+
+ 0120 UMN   Murmansk Radio       RUS North Atlantic to Barents Sea 
+ 0520 UMN   Murmansk Radio       RUS North Atlantic to Barents Sea 
+ 0920 UMN   Murmansk Radio       RUS North Atlantic to Barents Sea 
+ 1320 UMN   Murmansk Radio       RUS North Atlantic to Barents Sea 
+ 1720 UMN   Murmansk Radio       RUS North Atlantic to Barents Sea 
+ 2120 UMN   Murmansk Radio       RUS North Atlantic to Barents Sea 
+
+ 0200 A4M   Muscat Radio         OMA Ind.Ocean/Arab.Gulf/Red Sea   
+ 0600 A4M   Muscat Radio         OMA Ind.Ocean/Arab.Gulf/Red Sea   
+ 1000 A4M   Muscat Radio         OMA Ind.Ocean/Arab.Gulf/Red Sea   
+ 1400 A4M   Muscat Radio         OMA Ind.Ocean/Arab.Gulf/Red Sea   
+ 1800 A4M   Muscat Radio         OMA Ind.Ocean/Arab.Gulf/Red Sea   
+ 2200 A4M   Muscat Radio         OMA Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0100 JNB   Naha Radio           J   West Pacific/Sea of Japan     
+ 0500 JNB   Naha Radio           J   West Pacific/Sea of Japan     
+ 0900 JNB   Naha Radio           J   West Pacific/Sea of Japan     
+ 1300 JNB   Naha Radio           J   West Pacific/Sea of Japan     
+ 1700 JNB   Naha Radio           J   West Pacific/Sea of Japan     
+ 2100 JNB   Naha Radio           J   West Pacific/Sea of Japan     
+
+ 0348 PBK   NCG Texel            NLD N.Sea/Gulf of Bothania/Finland
+ 0748 PBK   NCG Texel            NLD N.Sea/Gulf of Bothania/Finland
+ 1148 PBK   NCG Texel            NLD N.Sea/Gulf of Bothania/Finland
+ 1548 PBK   NCG Texel            NLD N.Sea/Gulf of Bothania/Finland
+ 1948 PBK   NCG Texel            NLD N.Sea/Gulf of Bothania/Finland
+ 2348 PBK   NCG Texel            NLD N.Sea/Gulf of Bothania/Finland
+
+ 0200 5BA   Nicosia Radio        CYP Mediterranean Sea/Black Sea   
+ 0600 5BA   Nicosia Radio        CYP Mediterranean Sea/Black Sea   
+ 1000 5BA   Nicosia Radio        CYP Mediterranean Sea/Black Sea   
+ 1400 5BA   Nicosia Radio        CYP Mediterranean Sea/Black Sea   
+ 1800 5BA   Nicosia Radio        CYP Mediterranean Sea/Black Sea   
+ 2200 5BA   Nicosia Radio        CYP Mediterranean Sea/Black Sea   
+
+ 0018 GNI   Niton Radio          G   North Atlantic to Barents Sea 
+ 0418 GNI   Niton Radio          G   North Atlantic to Barents Sea 
+ 0818 GNI   Niton Radio          G   North Atlantic to Barents Sea 
+ 1218 GNI   Niton Radio          G   North Atlantic to Barents Sea 
+ 1618 GNI   Niton Radio          G   North Atlantic to Barents Sea 
+ 2018 GNI   Niton Radio          G   North Atlantic to Barents Sea 
+
+ 0300 UFN   Novorossiysk Radio   RUS Mediterranean Sea/Black Sea   
+ 0700 UFN   Novorossiysk Radio   RUS Mediterranean Sea/Black Sea   
+ 1100 UFN   Novorossiysk Radio   RUS Mediterranean Sea/Black Sea   
+ 1500 UFN   Novorossiysk Radio   RUS Mediterranean Sea/Black Sea   
+ 1900 UFN   Novorossiysk Radio   RUS Mediterranean Sea/Black Sea   
+ 2300 UFN   Novorossiysk Radio   RUS Mediterranean Sea/Black Sea   
+
+ 0018 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 0318 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 0618 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 0918 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 1030 UUI   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 1218 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 1518 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 1818 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 1830 UUI   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 2018 UUI   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 2118 UTT   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+ 2318 UUI   Odessa Radio         UKR Mediterranean Sea/Black Sea   
+
+ 0248 OST   Oostende Radio       BEL N.Sea/Gulf of Bothania/Finland
+ 0648 OST   Oostende Radio       BEL N.Sea/Gulf of Bothania/Finland
+ 1048 OST   Oostende Radio       BEL N.Sea/Gulf of Bothania/Finland
+ 1448 OST   Oostende Radio       BEL N.Sea/Gulf of Bothania/Finland
+ 1848 OST   Oostende Radio       BEL N.Sea/Gulf of Bothania/Finland
+ 2248 OST   Oostende Radio       BEL N.Sea/Gulf of Bothania/Finland
+
+ 0130 JNL   Otaru Radio          J   West Pacific/Sea of Japan     
+ 0530 JNL   Otaru Radio          J   West Pacific/Sea of Japan     
+ 0930 JNL   Otaru Radio          J   West Pacific/Sea of Japan     
+ 1330 JNL   Otaru Radio          J   West Pacific/Sea of Japan     
+ 1730 JNL   Otaru Radio          J   West Pacific/Sea of Japan     
+ 2130 JNL   Otaru Radio          J   West Pacific/Sea of Japan     
+
+ 0020 UBE 4 Petropavlovsk Radio  RUS West Pacific/Sea of Japan     
+ 0420 UBE 4 Petropavlovsk Radio  RUS West Pacific/Sea of Japan     
+ 0820 UBE 4 Petropavlovsk Radio  RUS West Pacific/Sea of Japan     
+ 1220 UBE 4 Petropavlovsk Radio  RUS West Pacific/Sea of Japan     
+ 1620 UBE 4 Petropavlovsk Radio  RUS West Pacific/Sea of Japan     
+ 2020 UBE 4 Petropavlovsk Radio  RUS West Pacific/Sea of Japan     
+
+ 0050 CTH   PN Horta             AZR North Atlantic to Barents Sea 
+ 0450 CTH   PN Horta             AZR North Atlantic to Barents Sea 
+ 0850 CTH   PN Horta             AZR North Atlantic to Barents Sea 
+ 1250 CTH   PN Horta             AZR North Atlantic to Barents Sea 
+ 1650 CTH   PN Horta             AZR North Atlantic to Barents Sea 
+ 2050 CTH   PN Horta             AZR North Atlantic to Barents Sea 
+
+ 0250 CTV   PN Lisbon            POR North Atlantic to Barents Sea 
+ 0650 CTV   PN Lisbon            POR North Atlantic to Barents Sea 
+ 1050 CTV   PN Lisbon            POR North Atlantic to Barents Sea 
+ 1450 CTV   PN Lisbon            POR North Atlantic to Barents Sea 
+ 1650 CTV   PN Lisbon            POR North Atlantic to Barents Sea 
+ 2050 CTV   PN Lisbon            POR North Atlantic to Barents Sea 
+
+ 0130 GPK   Portpatrick Radio    G   North Atlantic to Barents Sea 
+ 0530 GPK   Portpatrick Radio    G   North Atlantic to Barents Sea 
+ 0930 GPK   Portpatrick Radio    G   North Atlantic to Barents Sea 
+ 1330 GPK   Portpatrick Radio    G   North Atlantic to Barents Sea 
+ 1730 GPK   Portpatrick Radio    G   North Atlantic to Barents Sea 
+ 2130 GPK   Portpatrick Radio    G   North Atlantic to Barents Sea 
+
+ 0050 UGH   Provideniya Radio    RUS West Pacific/Sea of Japan     
+ 0450 UGH   Provideniya Radio    RUS West Pacific/Sea of Japan     
+ 0850 UGH   Provideniya Radio    RUS West Pacific/Sea of Japan     
+ 1250 UGH   Provideniya Radio    RUS West Pacific/Sea of Japan     
+ 1650 UGH   Provideniya Radio    RUS West Pacific/Sea of Japan     
+ 2050 UGH   Provideniya Radio    RUS West Pacific/Sea of Japan     
+
+ 0030 CBP   Puerto Montt Radio   CHL East Pacific                  
+ 0430 CBP   Puerto Montt Radio   CHL East Pacific                  
+ 0830 CBP   Puerto Montt Radio   CHL East Pacific                  
+ 1230 CBP   Puerto Montt Radio   CHL East Pacific                  
+ 1630 CBP   Puerto Montt Radio   CHL East Pacific                  
+ 2030 CBP   Puerto Montt Radio   CHL East Pacific                  
+
+ 0318 TFA   Reykjavik Radio      ISL North Atlantic to Barents Sea 
+ 0718 TFA   Reykjavik Radio      ISL North Atlantic to Barents Sea 
+ 1118 TFA   Reykjavik Radio      ISL North Atlantic to Barents Sea 
+ 1518 TFA   Reykjavik Radio      ISL North Atlantic to Barents Sea 
+ 1918 TFA   Reykjavik Radio      ISL North Atlantic to Barents Sea 
+ 2318 TFA   Reykjavik Radio      ISL North Atlantic to Barents Sea 
+
+ 0410 L3I   Rio Gallegos Radio   ARG South Atlantic                
+ 0500 L3D   Rio Gallegos Radio   ARG South Atlantic                
+ 1010 L3I   Rio Gallegos Radio   ARG South Atlantic                
+ 1100 L3D   Rio Gallegos Radio   ARG South Atlantic                
+ 1610 L3I   Rio Gallegos Radio   ARG South Atlantic                
+ 1700 L3D   Rio Gallegos Radio   ARG South Atlantic                
+ 2210 L3I   Rio Gallegos Radio   ARG South Atlantic                
+ 2300 L3D   Rio Gal
+
+ 0148 LGQ   Rogaland Radio       NOR N.Sea/Gulf of Bothania/Finland
+ 0548 LGQ   Rogaland Radio       NOR N.Sea/Gulf of Bothania/Finland
+ 0948 LGQ   Rogaland Radio       NOR N.Sea/Gulf of Bothania/Finland
+ 1348 LGQ   Rogaland Radio       NOR N.Sea/Gulf of Bothania/Finland
+ 1748 LGQ   Rogaland Radio       NOR N.Sea/Gulf of Bothania/Finland
+ 2148 LGQ   Rogaland Radio       NOR N.Sea/Gulf of Bothania/Finland
+
+ 0040 TAF   Samsun Radio         TUR Mediterranean Sea/Black Sea   
+ 0440 TAF   Samsun Radio         TUR Mediterranean Sea/Black Sea   
+ 0840 TAF   Samsun Radio         TUR Mediterranean Sea/Black Sea   
+ 1240 TAF   Samsun Radio         TUR Mediterranean Sea/Black Sea   
+ 1640 TAF   Samsun Radio         TUR Mediterranean Sea/Black Sea   
+ 2140 TAF   Samsun Radio         TUR Mediterranean Sea/Black Sea   
+
+ 0610 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 0750 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 1010 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 1150 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 1410 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 1550 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 1810 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+ 1950 SUZ   Serapeum Radio       EGY Ind.Ocean/Arab.Gulf/Red Sea   
+
+ 0240 XSG   Shanghai Radio       CHN East/South China Sea          
+ 0640 XSG   Shanghai Radio       CHN East/South China Sea          
+ 1040 XSG   Shanghai Radio       CHN East/South China Sea          
+ 1440 XSG   Shanghai Radio       CHN East/South China Sea          
+ 2240 XSG   Shanghai Radio       CHN East/South China Sea          
+
+ 0020 9VG   Singapore Radio      SNG East/South China Sea          
+ 0420 9VG   Singapore Radio      SNG East/South China Sea          
+ 0820 9VG   Singapore Radio      SNG East/South China Sea          
+ 1220 9VG   Singapore Radio      SNG East/South China Sea          
+ 1620 9VG   Singapore Radio      SNG East/South China Sea          
+ 2020 9VG   Singapore Radio      SNG East/South China Sea          
+
+ 0700 9AS   Slit Radio           HRV Mediterranean Sea/Black Sea   
+ 1300 9AS   Slit Radio           HRV Mediterranean Sea/Black Sea   
+ 1900 9AS   Slit Radio           HRV Mediterranean Sea/Black Sea   
+
+ 0330 SDJ   Stockholm Radio      S   N.Sea/Gulf of Bothania/Finland
+ 0730 SDJ   Stockholm Radio      S   N.Sea/Gulf of Bothania/Finland
+ 1130 SDJ   Stockholm Radio      S   N.Sea/Gulf of Bothania/Finland
+ 1530 SDJ   Stockholm Radio      S   N.Sea/Gulf of Bothania/Finland
+ 1930 SDJ   Stockholm Radio      S   N.Sea/Gulf of Bothania/Finland
+ 2330 SDJ   Stockholm Radio      S   N.Sea/Gulf of Bothania/Finland
+
+ 0020 CBT   Talcahuano Radio     CHL East Pacific                  
+ 0420 CBT   Talcahuano Radio     CHL East Pacific                  
+ 0820 CBT   Talcahuano Radio     CHL East Pacific                  
+ 1220 CBT   Talcahuano Radio     CHL East Pacific                  
+ 1620 CBT   Talcahuano Radio     CHL East Pacific                  
+ 2020 CBT   Talcahuano Radio     CHL East Pacific                  
+
+ 0030 ESA   Tallinn Radio        EST N.Sea/Gulf of Bothania/Finland
+ 0430 ESA   Tallinn Radio        EST N.Sea/Gulf of Bothania/Finland
+ 0830 ESA   Tallinn Radio        EST N.Sea/Gulf of Bothania/Finland
+ 1230 ESA   Tallinn Radio        EST N.Sea/Gulf of Bothania/Finland
+ 1630 ESA   Tallinn Radio        EST N.Sea/Gulf of Bothania/Finland
+ 2030 ESA   Tallinn Radio        EST N.Sea/Gulf of Bothania/Finland
+
+ 0100 EAC   Tarifa Radio         E   Mediterranean Sea/Black Sea   
+ 0500 EAC   Tarifa Radio         E   Mediterranean Sea/Black Sea   
+ 1300 EAC   Tarifa Radio         E   Mediterranean Sea/Black Sea   
+ 1700 EAC   Tarifa Radio         E   Mediterranean Sea/Black Sea   
+
+ 0300 NOX   USCG Adak            ALS East Pacific                  
+ 0700 NOX   USCG Adak            ALS East Pacific                  
+ 1100 NOX   USCG Adak            ALS East Pacific                  
+ 1500 NOX   USCG Adak            ALS East Pacific                  
+ 1900 NOX   USCG Adak            ALS East Pacific                  
+ 2300 NOX   USCG Adak            ALS East Pacific                  
+
+ 0100 NRV   USCG Apra Harbour    GUM West Pacific/Sea of Japan     
+ 0500 NRV   USCG Apra Harbour    GUM West Pacific/Sea of Japan     
+ 0900 NRV   USCG Apra Harbour    GUM West Pacific/Sea of Japan     
+ 1300 NRV   USCG Apra Harbour    GUM West Pacific/Sea of Japan     
+ 1700 NRV   USCG Apra Harbour    GUM West Pacific/Sea of Japan     
+
+ 0130 NMT   USCG Astoria         USA East Pacific                  
+ 0530 NMT   USCG Astoria         USA East Pacific                  
+ 0930 NMT   USCG Astoria         USA East Pacific                  
+ 1330 NMT   USCG Astoria         USA East Pacific                  
+ 1730 NMT   USCG Astoria         USA East Pacific                  
+ 2130 NMT   USCG Astoria         USA East Pacific                  
+
+ 0045 NMF   USCG Boston          USA North Atlantic to Barents Sea 
+ 0445 NMF   USCG Boston          USA North Atlantic to Barents Sea 
+ 0845 NMF   USCG Boston          USA North Atlantic to Barents Sea 
+ 1245 NMF   USCG Boston          USA North Atlantic to Barents Sea 
+ 1645 NMF   USCG Boston          USA North Atlantic to Barents Sea 
+ 2045 NMF   USCG Boston          USA North Atlantic to Barents Sea 
+
+ 0040 NMO   USCG Honolulu        HWA East Pacific                  
+ 0440 NMO   USCG Honolulu        HWA East Pacific                  
+ 0840 NMO   USCG Honolulu        HWA East Pacific                  
+ 1240 NMO   USCG Honolulu        HWA East Pacific                  
+ 1640 NMO   USCG Honolulu        HWA East Pacific                  
+ 2040 NMO   USCG Honolulu        HWA East Pacific                  
+
+ 0300 NOJ   USCG Kodiak          ALS East Pacific                  
+ 0340 NOJ   USCG Kodiak          ALS East Pacific                  
+ 0700 NOJ   USCG Kodiak          ALS East Pacific                  
+ 0740 NOJ   USCG Kodiak          ALS East Pacific                  
+ 1100 NOJ   USCG Kodiak          ALS East Pacific                  
+ 1140 NOJ   USCG Kodiak          ALS East Pacific                  
+ 1500 NOJ   USCG Kodiak          ALS East Pacific                  
+ 1540 NOJ   USCG Kodiak          ALS East Pacific                  
+ 1900 NOJ   USCG Kodiak          ALS East Pacific                  
+ 1940 NOJ   USCG Kodiak          ALS East Pacific                  
+ 2300 NOJ   USCG Kodiak          ALS East Pacific                  
+ 2340 NOJ   USCG Kodiak          ALS East Pacific                  
+
+ 0045 NMQ   USCG Long Beach      USA East Pacific                  
+ 0445 NMQ   USCG Long Beach      USA East Pacific                  
+ 0845 NMQ   USCG Long Beach      USA East Pacific                  
+ 1245 NMQ   USCG Long Beach      USA East Pacific                  
+ 1645 NMQ   USCG Long Beach      USA East Pacific                  
+ 2045 NMQ   USCG Long Beach      USA East Pacific                  
+
+ 0000 NMA   USCG Miami           USA Caribbian Sea                 
+ 0400 NMA   USCG Miami           USA Caribbian Sea                 
+ 0800 NMA   USCG Miami           USA Caribbian Sea                 
+ 1200 NMA   USCG Miami           USA Caribbian Sea                 
+ 1600 NMA   USCG Miami           USA Caribbian Sea                 
+ 2000 NMA   USCG Miami           USA Caribbian Sea                 
+
+ 0300 NMG   USCG New Orleans     USA Caribbian Sea                 
+ 0700 NMG   USCG New Orleans     USA Caribbian Sea                 
+ 1100 NMG   USCG New Orleans     USA Caribbian Sea                 
+ 1500 NMG   USCG New Orleans     USA Caribbian Sea                 
+ 1900 NMG   USCG New Orleans     USA Caribbian Sea                 
+ 2300 NMG   USCG New Orleans     USA Caribbian Sea                 
+
+ 0130 NMN   USCG Portsmouth      USA North Atlantic to Barents Sea 
+ 0530 NMN   USCG Portsmouth      USA North Atlantic to Barents Sea 
+ 0930 NMN   USCG Portsmouth      USA North Atlantic to Barents Sea 
+ 1330 NMN   USCG Portsmouth      USA North Atlantic to Barents Sea 
+ 1730 NMN   USCG Portsmouth      USA North Atlantic to Barents Sea 
+ 2130 NMN   USCG Portsmouth      USA North Atlantic to Barents Sea 
+
+ 0000 NMC   USCG San Francisco   USA East Pacific                  
+ 0400 NMC   USCG San Francisco   USA East Pacific                  
+ 0800 NMC   USCG San Francisco   USA East Pacific                  
+ 1200 NMC   USCG San Francisco   USA East Pacific                  
+ 1600 NMC   USCG San Francisco   USA East Pacific                  
+ 2200 NMC   USCG San Francisco   USA East Pacific                  
+
+ 0200 NMR   USCG San Juan        PTR Caribbian Sea                 
+ 0600 NMR   USCG San Juan        PTR Caribbian Sea                 
+ 1000 NMR   USCG San Juan        PTR Caribbian Sea                 
+ 1400 NMR   USCG San Juan        PTR Caribbian Sea                 
+ 1800 NMR   USCG San Juan        PTR Caribbian Sea                 
+ 2200 NMR   USCG San Juan        PTR Caribbian Sea                 
+
+ 0220 9HD   Valetta Radio        MLT Mediterranean Sea/Black Sea   
+ 0620 9HD   Valetta Radio        MLT Mediterranean Sea/Black Sea   
+ 1020 9HD   Valetta Radio        MLT Mediterranean Sea/Black Sea   
+ 1420 9HD   Valetta Radio        MLT Mediterranean Sea/Black Sea   
+ 1820 9HD   Valetta Radio        MLT Mediterranean Sea/Black Sea   
+ 2220 9HD   Valetta Radio        MLT Mediterranean Sea/Black Sea   
+
+ 0100 CBV   Valparaiso Radio     CHL East Pacific                  
+ 0700 CBV   Valparaiso Radio     CHL East Pacific                  
+ 1300 CBV   Valparaiso Radio     CHL East Pacific                  
+ 1900 CBV   Valparaiso Radio     CHL East Pacific                  
+
+ 0300 LGV   Vardoe Radio         NOR N.Sea/Gulf of Bothania/Finland
+ 0700 LGV   Vardoe Radio         NOR N.Sea/Gulf of Bothania/Finland
+ 1100 LGV   Vardoe Radio         NOR N.Sea/Gulf of Bothania/Finland
+ 1500 LGV   Vardoe Radio         NOR N.Sea/Gulf of Bothania/Finland
+ 1900 LGV   Vardoe Radio         NOR N.Sea/Gulf of Bothania/Finland
+ 2300 LGV   Vardoe Radio         NOR N.Sea/Gulf of Bothania/Finland
+
+ 0130 LZW   Varna Radio          BUL Mediterranean Sea/Black Sea   
+ 0530 LZW   Varna Radio          BUL Mediterranean Sea/Black Sea   
+ 0930 LZW   Varna Radio          BUL Mediterranean Sea/Black Sea   
+ 1330 LZW   Varna Radio          BUL Mediterranean Sea/Black Sea   
+ 1730 LZW   Varna Radio          BUL Mediterranean Sea/Black Sea   
+ 2130 LZW   Varna Radio          BUL Mediterranean Sea/Black Sea   
+
+ 0150 VRX   Victoria Harbour Rad HKG East/South China Sea          
+ 0550 VRX   Victoria Harbour Rad HKG East/South China Sea          
+ 0950 VRX   Victoria Harbour Rad HKG East/South China Sea          
+ 1350 VRX   Victoria Harbour Rad HKG East/South China Sea          
+ 1750 VRX   Victoria Harbour Rad HKG East/South China Sea          
+ 2150 VRX   Victo
+
+ 0000 UIK   Vladivostok Radio    RUS West Pacific/Sea of Japan     
+ 0400 UIK   Vladivostok Radio    RUS West Pacific/Sea of Japan     
+ 0800 UIK   Vladivostok Radio    RUS West Pacific/Sea of Japan     
+ 1200 UIK   Vladivostok Radio    RUS West Pacific/Sea of Japan     
+ 1600 UIK   Vladivostok Radio    RUS West Pacific/Sea of Japan     
+ 2000 UIK   Vladivostok Radio    RUS West Pacific/Sea of Japan     
+
+ 0120 JGC   Yokohama Radio       J   West Pacific/Sea of Japan     
+ 0520 JGC   Yokohama Radio       J   West Pacific/Sea of Japan     
+ 0920 JGC   Yokohama Radio       J   West Pacific/Sea of Japan     
+ 1320 JGC   Yokohama Radio       J   West Pacific/Sea of Japan     
+ 1720 JGC   Yokohama Radio       J   West Pacific/Sea of Japan     
+ 2120 JGC   Yokohama Radio       J   West Pacific/Sea of Japan     
+
+
+                   --- END OFF FILE --- 

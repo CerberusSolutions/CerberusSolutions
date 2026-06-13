@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rttview"
+version = "0.1.0"
+description = "Lightweight standalone viewer/editor/converter for Code3/30 radio-teletype .RTT files"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["rtty", "radio", "teletype", "ita-2", "baudot", "code3", "code30", "tui"]
+dependencies = []  # standard library only
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+rttview = "rttview.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["rttview*"]
