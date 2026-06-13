@@ -51,6 +51,29 @@ def _addstr(win, y, x, text, attr=0) -> None:
             pass
 
 
+def _bar(win, y, attr, left="", right="") -> None:
+    """Paint a full-width colour bar across row ``y``, edge to edge.
+
+    Writing the bottom-right cell with addstr scrolls/raises, so the final
+    column is filled with ``insstr`` (which does not advance the cursor).
+    """
+    h, w = win.getmaxyx()
+    if not (0 <= y < h):
+        return
+    try:
+        win.addstr(y, 0, " " * (w - 1), attr)
+    except curses.error:
+        pass
+    try:
+        win.insstr(y, w - 1, " ", attr)  # paint last column without moving cursor
+    except curses.error:
+        pass
+    if left:
+        _addstr(win, y, 0, left, attr)
+    if right:
+        _addstr(win, y, max(0, w - len(right)), right, attr)
+
+
 # --------------------------------------------------------------------------- #
 #  Pop-up helpers
 # --------------------------------------------------------------------------- #
@@ -132,8 +155,8 @@ def file_picker(stdscr, directory: Path) -> Path | None:
         stdscr.bkgd(" ", curses.color_pair(CP_BLUE))
         stdscr.erase()
         h, w = stdscr.getmaxyx()
-        _addstr(stdscr, 0, 0, " VIEWRTT2 MAIN MENU ".center(w - 1),
-                curses.color_pair(CP_MENU) | curses.A_BOLD)
+        _bar(stdscr, 0, curses.color_pair(CP_MENU) | curses.A_BOLD,
+             left=" VIEWRTT2 MAIN MENU ".center(w - 1))
         _addstr(stdscr, 2, 2, "NAME".ljust(20) + "SIZE".rjust(8) + "   "
                 + "DATE".ljust(12) + "TIME", curses.A_BOLD)
         rows = h - 5
@@ -149,9 +172,8 @@ def file_picker(stdscr, directory: Path) -> Path | None:
                     + dt.strftime("%d-%m-%Y").ljust(12) + dt.strftime("%H.%M.%S"))
             attr = curses.color_pair(CP_HILITE) if i == sel else curses.color_pair(CP_BLUE)
             _addstr(stdscr, 4 + i - top, 2, line.ljust(w - 4), attr)
-        _addstr(stdscr, h - 1, 0,
-                " [Enter] OPEN   [F1] HELP   [ESC] EXIT ".ljust(w - 1),
-                curses.color_pair(CP_MENU))
+        _bar(stdscr, h - 1, curses.color_pair(CP_MENU),
+             left=" [Enter] OPEN   [F1] HELP   [ESC] EXIT ")
         stdscr.refresh()
         c = stdscr.getch()
         if c == 27:
@@ -194,10 +216,11 @@ class Editor:
         name = self.doc.path.name if self.doc.path else "untitled"
         dirty = " !" if self.doc.dirty else "  "
         head = f" CURRENT WORK FILE  {name}{dirty}"
-        mode = "INSERT" if self.insert else "OVER  "
-        _addstr(s, 0, 0, head.ljust(w - 8), curses.color_pair(CP_MENU) | curses.A_BOLD)
-        _addstr(s, 0, w - 8, mode, curses.color_pair(CP_STATUS) | curses.A_BOLD)
-        _addstr(s, 1, 0, self.MENU.ljust(w - 1), curses.color_pair(CP_MENU))
+        mode = "INSERT " if self.insert else "OVER   "
+        _bar(s, 0, curses.color_pair(CP_MENU) | curses.A_BOLD, left=head)
+        _addstr(s, 0, max(0, w - len(mode)), mode,
+                curses.color_pair(CP_STATUS) | curses.A_BOLD)
+        _bar(s, 1, curses.color_pair(CP_MENU), left=self.MENU)
 
         body_top, rows = 3, h - 4
         if self.cy < self.top:
@@ -217,7 +240,7 @@ class Editor:
                   + ("  [RTL]" if self.reverse else "")
                   + f"   Ln {self.cy + 1}/{len(self.doc.lines)} Col {self.cx + 1}"
                   + f"   {pct:>3}% ")
-        _addstr(s, h - 1, 0, status.ljust(w - 1), curses.color_pair(CP_STATUS))
+        _bar(s, h - 1, curses.color_pair(CP_STATUS), left=status)
 
         # cursor
         cyscr = body_top + self.cy - self.top
