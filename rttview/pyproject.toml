@@ -22,3 +22,6 @@ rttview = "rttview.__main__:main"
 
 [tool.setuptools.packages.find]
 include = ["rttview*"]
+
+[tool.setuptools.package-data]
+"rttview.efc" = ["*.EFC"]

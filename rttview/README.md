@@ -84,13 +84,28 @@ rttview/
   reference/        # the original *.EFC fonts + dump_font.py (glyph viewer)
 ```
 
+### Inspect the original fonts
+
+The real `.EFC` bitmap fonts are bundled and decoded, so you can view the exact
+glyphs the DOS version drew:
+
+```
+python -m rttview --fonts          # list alphabets and their EFC fonts
+python -m rttview --font J          # render Arabic ATU-70's bitmaps (half-blocks)
+python -m rttview --font HEBREW.EFC # …or name a font file directly
+```
+
 ## Fidelity notes
 
 * The **conversion tables are exact** — transcribed character-for-character from
   `VIEWRTT2.PAS` (including the high-bit custom-glyph bytes) and covered by tests.
-* The **alphabet display maps** reproduce the original `.EFC` fonts, which are a
-  `a`–`z` → script-glyph remapping. The bundled fonts and `reference/dump_font.py`
-  let you verify or fine-tune a specific variant's glyphs.
+* The non-Latin alphabets are **pinned to the original `.EFC` bitmaps**: the fonts
+  are packaged (`rttview/efc/`) and decoded (`rttview/fonts.py`) with the exact
+  `LoadChar` parameters (30 glyphs from offset 1369, 8×16). `--font` shows them.
+  The inline editor view uses a Unicode transliteration of those glyphs
+  (`alphabets.py`) because a terminal cell can't hold an arbitrary bitmap;
+  Cyrillic and Greek are verified against the bitmaps, Arabic/Hebrew are the
+  closest Unicode rendering of the 8-pixel forms.
 * `.RTT` bytes are decoded with **CP437** (the DOS code page), a loss-free 1:1
   mapping, so files round-trip exactly.
 

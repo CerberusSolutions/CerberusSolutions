@@ -56,14 +56,21 @@ _ARABIC = {
 
 
 class Alphabet:
-    """One selectable display script."""
+    """One selectable display script.
+
+    ``efc`` names the original Code3/30 bitmap font this alphabet reproduces (or
+    ``None`` for plain Latin).  ``table`` is the terminal-friendly Unicode
+    transliteration; the *authoritative* glyphs are the EFC bitmaps, viewable
+    with ``python -m rttview --font <key>``.
+    """
 
     def __init__(self, key: str, label: str, table: dict[str, str] | None,
-                 rtl: bool = False) -> None:
+                 rtl: bool = False, efc: str | None = None) -> None:
         self.key = key
         self.label = label
         self.table = table          # None == plain Latin (identity)
         self.rtl = rtl
+        self.efc = efc
 
     def render(self, line: str) -> str:
         """Transliterate a line for display (without reordering)."""
@@ -73,19 +80,20 @@ class Alphabet:
                        for ch in line)
 
 
-# Order and labels match the original SELECT ALPHABET menu.
+# Order and labels match the original SELECT ALPHABET menu; ``efc`` is the
+# original bitmap font each one reproduces.
 ALPHABETS: list[Alphabet] = [
-    Alphabet("A", "International ITA-2", None),
-    Alphabet("B", "US Military", None),
+    Alphabet("A", "International ITA-2", None, efc="STANDARD.EFC"),
+    Alphabet("B", "US Military", None, efc="MAIN.EFC"),
     Alphabet("C", "National Scandinavian", None),
-    Alphabet("D", "Greek third shift", _GREEK),
-    Alphabet("E", "M19 Cyrillic", _CYRILLIC),
-    Alphabet("F", "M19 Latin", None),
-    Alphabet("G", "M2 third shift Cyrillic", _CYRILLIC),
-    Alphabet("H", "M2 third shift Latin", None),
-    Alphabet("I", "Hebrew", _HEBREW, rtl=True),
-    Alphabet("J", "Arabic ATU-70", _ARABIC, rtl=True),
-    Alphabet("K", "Arabic ATU-80 4th shift", _ARABIC, rtl=True),
+    Alphabet("D", "Greek third shift", _GREEK, efc="GR.EFC"),
+    Alphabet("E", "M19 Cyrillic", _CYRILLIC, efc="M19CYR.EFC"),
+    Alphabet("F", "M19 Latin", None, efc="M19LAT.EFC"),
+    Alphabet("G", "M2 third shift Cyrillic", _CYRILLIC, efc="M2CYR.EFC"),
+    Alphabet("H", "M2 third shift Latin", None, efc="M2LAT.EFC"),
+    Alphabet("I", "Hebrew", _HEBREW, rtl=True, efc="HEBREW.EFC"),
+    Alphabet("J", "Arabic ATU-70", _ARABIC, rtl=True, efc="ATU70.EFC"),
+    Alphabet("K", "Arabic ATU-80 4th shift", _ARABIC, rtl=True, efc="ATU80.EFC"),
 ]
 
 _BY_KEY = {a.key: a for a in ALPHABETS}
