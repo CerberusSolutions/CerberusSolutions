@@ -11,10 +11,24 @@ converters — but runs anywhere Python does, in any modern Unicode terminal, wi
 nothing to install beyond the standard library.
 
 ```
+python -m rttview samples        # macOS / Linux
+run.bat                          # Windows (double-click, or: run.bat <folder>)
+```
+
+### Windows
+
+Python on Windows has no built-in `curses`, so install the backend once:
+
+```
+python -m pip install windows-curses
 python -m rttview samples
 ```
 
-![original ViewRTT2 menu](reference/) <!-- original DOS screenshots in chat history -->
+If that wheel isn't available for your Python version (it can lag on the newest
+releases), either run under **WSL** (curses is built in) or use **Python 3.12**:
+`py -3.12 -m pip install windows-curses` then `py -3.12 -m rttview samples`.
+Use **Windows Terminal** so the Cyrillic/Arabic/Greek glyphs render. The bundled
+`run.bat` installs the backend automatically if it's missing.
 
 ## What it does
 
@@ -70,13 +84,28 @@ rttview/
   reference/        # the original *.EFC fonts + dump_font.py (glyph viewer)
 ```
 
+### Inspect the original fonts
+
+The real `.EFC` bitmap fonts are bundled and decoded, so you can view the exact
+glyphs the DOS version drew:
+
+```
+python -m rttview --fonts          # list alphabets and their EFC fonts
+python -m rttview --font J          # render Arabic ATU-70's bitmaps (half-blocks)
+python -m rttview --font HEBREW.EFC # …or name a font file directly
+```
+
 ## Fidelity notes
 
 * The **conversion tables are exact** — transcribed character-for-character from
   `VIEWRTT2.PAS` (including the high-bit custom-glyph bytes) and covered by tests.
-* The **alphabet display maps** reproduce the original `.EFC` fonts, which are a
-  `a`–`z` → script-glyph remapping. The bundled fonts and `reference/dump_font.py`
-  let you verify or fine-tune a specific variant's glyphs.
+* The non-Latin alphabets are **pinned to the original `.EFC` bitmaps**: the fonts
+  are packaged (`rttview/efc/`) and decoded (`rttview/fonts.py`) with the exact
+  `LoadChar` parameters (30 glyphs from offset 1369, 8×16). `--font` shows them.
+  The inline editor view uses a Unicode transliteration of those glyphs
+  (`alphabets.py`) because a terminal cell can't hold an arbitrary bitmap;
+  Cyrillic and Greek are verified against the bitmaps, Arabic/Hebrew are the
+  closest Unicode rendering of the 8-pixel forms.
 * `.RTT` bytes are decoded with **CP437** (the DOS code page), a loss-free 1:1
   mapping, so files round-trip exactly.
 
@@ -90,9 +119,18 @@ pip install -e ".[dev]"
 pytest
 ```
 
-To ship a true single-file binary (no Python needed on the target):
+## Standalone executable (no Python needed)
+
+Pre-built single-file binaries for **Windows, macOS and Linux** are produced by
+CI on every push — grab them from the **Actions** run (or the PR checks) under
+*Artifacts* (`rttview-windows` / `rttview-macos` / `rttview-linux`).
+
+To build one yourself, from the `rttview` folder:
 
 ```
-pip install pyinstaller
-pyinstaller --onefile -n rttview rttview/__main__.py
+pip install pyinstaller          # plus: pip install windows-curses  (Windows only)
+python build_exe.py              # -> dist/rttview   (dist\rttview.exe on Windows)
+./dist/rttview samples
 ```
+
+The build bundles the `.EFC` fonts, so `--font` works from the frozen binary too.

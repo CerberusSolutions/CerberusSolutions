@@ -84,3 +84,19 @@ def test_rtt_roundtrip(tmp_path):
     out = tmp_path / "y.rtt"
     doc.save(out)
     assert out.read_bytes() == b"line one\r\nline two\r\n"
+
+
+def test_efc_fonts_decode_and_back_each_alphabet():
+    from rttview import fonts
+    # Every alphabet that names a font must load and expose a-z glyphs.
+    for a in alphabets.ALPHABETS:
+        if not a.efc:
+            continue
+        font = fonts.load(a.efc)
+        assert set("abcdefghijklmnopqrstuvwxyz") <= set(font.glyphs)
+        g = font.glyph("a")
+        assert len(g) == fonts.GLYPH_HEIGHT and len(g[0]) == fonts.GLYPH_WIDTH
+        # A real glyph has at least some set pixels.
+        assert any(any(row) for row in g)
+    # Half-block preview yields 8 lines per glyph.
+    assert len(fonts.load("ATU70.EFC").render_halfblock("b")) == 8
