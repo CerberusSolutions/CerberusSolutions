@@ -119,9 +119,18 @@ pip install -e ".[dev]"
 pytest
 ```
 
-To ship a true single-file binary (no Python needed on the target):
+## Standalone executable (no Python needed)
+
+Pre-built single-file binaries for **Windows, macOS and Linux** are produced by
+CI on every push — grab them from the **Actions** run (or the PR checks) under
+*Artifacts* (`rttview-windows` / `rttview-macos` / `rttview-linux`).
+
+To build one yourself, from the `rttview` folder:
 
 ```
-pip install pyinstaller
-pyinstaller --onefile -n rttview rttview/__main__.py
+pip install pyinstaller          # plus: pip install windows-curses  (Windows only)
+python build_exe.py              # -> dist/rttview   (dist\rttview.exe on Windows)
+./dist/rttview samples
 ```
+
+The build bundles the `.EFC` fonts, so `--font` works from the frozen binary too.

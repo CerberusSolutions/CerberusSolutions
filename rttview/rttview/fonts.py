@@ -14,6 +14,8 @@ bitmaps rather than only approximated by the Unicode transliteration maps in
 
 from __future__ import annotations
 
+import os
+import sys
 from importlib import resources
 
 # LoadChar parameters, straight from VIEWRTT2.PAS.
@@ -59,10 +61,30 @@ class EfcFont:
         return out
 
 
+def _font_bytes(filename: str) -> bytes:
+    """Read a packaged .EFC font, working in dev, installed and frozen layouts."""
+    # 1) importlib.resources -- the normal installed/dev path.
+    try:
+        return (resources.files("rttview.efc") / filename).read_bytes()
+    except (FileNotFoundError, ModuleNotFoundError, TypeError, OSError):
+        pass
+    # 2) next to this module (e.g. running from a source checkout).
+    here = os.path.dirname(os.path.abspath(__file__))
+    candidates = [os.path.join(here, "efc", filename)]
+    # 3) inside a PyInstaller onefile bundle.
+    base = getattr(sys, "_MEIPASS", None)
+    if base:
+        candidates.append(os.path.join(base, "rttview", "efc", filename))
+    for cand in candidates:
+        if os.path.exists(cand):
+            with open(cand, "rb") as fh:
+                return fh.read()
+    raise FileNotFoundError(filename)
+
+
 def load(filename: str) -> EfcFont:
     """Load a packaged .EFC font by file name (e.g. ``ATU80.EFC``)."""
-    data = (resources.files("rttview.efc") / filename).read_bytes()
-    return EfcFont(filename, data)
+    return EfcFont(filename, _font_bytes(filename))
 
 
 def font_sheet(filename: str, chars: str = "abcdefghijklmnopqrstuvwxyz") -> str:

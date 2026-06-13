@@ -1,0 +1,61 @@
+name: build rttview executables
+
+on:
+  push:
+    branches: ["**"]
+    paths: ["rttview/**", ".github/workflows/build.yml"]
+  pull_request:
+    paths: ["rttview/**", ".github/workflows/build.yml"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: rttview
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - run: pytest -q
+
+  build:
+    needs: test
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            artifact: rttview-windows
+            binary: dist/rttview.exe
+          - os: macos-latest
+            artifact: rttview-macos
+            binary: dist/rttview
+          - os: ubuntu-latest
+            artifact: rttview-linux
+            binary: dist/rttview
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: rttview
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build deps
+        run: pip install pyinstaller
+      - name: Install Windows curses backend
+        if: runner.os == 'Windows'
+        run: pip install windows-curses
+      - name: Build
+        run: python build_exe.py
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: rttview/${{ matrix.binary }}
+          if-no-files-found: error
