@@ -11,10 +11,24 @@ converters — but runs anywhere Python does, in any modern Unicode terminal, wi
 nothing to install beyond the standard library.
 
 ```
+python -m rttview samples        # macOS / Linux
+run.bat                          # Windows (double-click, or: run.bat <folder>)
+```
+
+### Windows
+
+Python on Windows has no built-in `curses`, so install the backend once:
+
+```
+python -m pip install windows-curses
 python -m rttview samples
 ```
 
-![original ViewRTT2 menu](reference/) <!-- original DOS screenshots in chat history -->
+If that wheel isn't available for your Python version (it can lag on the newest
+releases), either run under **WSL** (curses is built in) or use **Python 3.12**:
+`py -3.12 -m pip install windows-curses` then `py -3.12 -m rttview samples`.
+Use **Windows Terminal** so the Cyrillic/Arabic/Greek glyphs render. The bundled
+`run.bat` installs the backend automatically if it's missing.
 
 ## What it does
 
